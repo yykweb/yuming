@@ -1,0 +1,25 @@
+{
+  "name": "yykweb/yuming",
+  "description": "yuming",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yykweb",
+      "email": "lizhen@youyike.cn"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require":
+  {
+    "php":">=5.4.0",
+    "houdunwang/framework": "3.0.*"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "yykweb\\yuming\\":"src"
+    }
+  }
+}
